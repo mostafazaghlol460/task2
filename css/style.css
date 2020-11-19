@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 20px;
+    
+}
+section{
+    padding: 40px 0;
+    position: relative;
+}
+a:hover{text-decoration: none;}
+
+
+.owl-theme .owl-nav {
+    position: absolute;
+    font-weight: 100;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: none;
+    color: #000;
+}
+button:focus{outline: 0;}
+
+
+
+/**************************** banner responsev **************/
+/*********Small Scren**********/
+@media screen and (max-width: 600px) {
+
+    .baner .item .baner-content{padding: 0 20px}
+    .baner .item .baner-content .baner-prodc-subname h3{font-size: 20px;}
+    .baner .item .baner-content .baner-prodc-subname p {font-size: 14px;}
+    .baner .item .baner-content .baner-prodc-about p {font-size: 10px;}
+    .baner .item .baner-content .baner-prodc-price span {font-size: 10px;}
+}
+
+
+/*********Mediam Scren*********/
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .baner .item .baner-content .baner-prodc-subname h3{font-size: 25px;}
+    .baner .item .baner-content .baner-prodc-subname p {font-size: 14px;}
+    .baner .item .baner-content .baner-prodc-about p {font-size: 11px;}
+    .baner .item .baner-content .baner-prodc-price span {font-size: 25px;}
+}
+
+
+/*********Large scren**********/
+@media screen and (min-width: 768px) and (max-width: 992px) {}
+
+
+.page-baner{
+    background-image: url(../img/bg-baners.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+.info figure{
+
+    box-shadow: 5px 5px 10px #c0c0c0a6;
+    margin: 0px 15px;
+    max-height: 120px;
+}
+.info .icon{
+    font-size: 40px;
+    color: var(--pop-color);
+    text-align: center;
+}
+.info .figcaption{
+    padding: 10px 20px;
+}
+.info .span{
+    font-size: 30px;
+}
+
+.info div ul li{display: none}
+.info div ul li a{
+    font-size: 30px;
+}
+.list li{
+    border: none;
+}
+.info .figcaption h5{
+    font-family: jose;
+    font-size: 25px;
+    color: var(--pop-color);
+    margin: 0;
+}
+.info .figcaption p{
+    color: slategrey;
+    font-weight: 100;
+}
+section.form{
+    padding: 50px 0px;
+
+}
+.form .heading  p{
+    font-family: jose;
+}
+.form .heading  h2{
+    font-family: jose;
+    color:var(--pop-color) ;
+}
+.form .heading h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-form .form-group input{
+    padding: 20px 10px;
+    font-weight: 100;
+}
